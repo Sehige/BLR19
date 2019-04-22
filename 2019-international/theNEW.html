@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+<script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="vs.css">
+
+</style>
+</head>
+<script type="text/javascript"> 
+$(window).keypress(function(e) {
+    if (e.which === 32) {
+		
+		var leftRobot = $("#leftRobot");
+		var rightRobot = $("#rightRobot");
+		var versus = $("#versus");
+		
+        rightRobot.animate({right:'120px'},{duration: 400});
+		leftRobot.animate({left:'120px'},{duration: 400});
+		
+		$("body").delay(400).effect( "shake", {direction:"up", distance: 8, times:8} );
+		
+		rightRobot.animate({right:'-20px'},{duration: 1000});
+		leftRobot.animate({left:'-20px'},{duration: 1000});
+		versus.delay(1000).fadeIn(1000);
+    }
+});
+</script> 
+<body >
+<img src="sergiu.jpg" id="leftRobot" width="300" hight="300" align="left">
+<img src="stitch.jpg" id="rightRobot" width="300" hight="300" align="right">
+
+</body>
+</html>

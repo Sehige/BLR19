@@ -1,0 +1,97 @@
+#header {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#header img {
+	width:100%;
+}
+
+#wrapper {
+	margin-top: 10px;
+}
+
+#versus {
+	display: none;
+	text-align: center;
+	z-index: -999;
+}
+
+.mirror {
+     -moz-transform: scale(-1, 1);
+     -webkit-transform: scale(-1, 1);
+     transform: scale(-1, 1);
+  }
+
+#scor {
+	margin-top: 110px;
+	font-family: Impact, Charcoal, sans-serif;
+	text-transform: uppercase;
+	color: #990000;
+	font-size: 80px;
+}
+
+#versus img{
+	margin-top: 60px;
+	height: 100px;
+}
+
+#etapa {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-family: Impact, Charcoal, sans-serif;
+	text-transform: uppercase;
+	color: #990000;
+	font-size: 60px;
+}
+
+#leftRobot {
+	left: -500px;
+	position: fixed;
+	z-index: 999;
+	size: 70%;
+	margin-top: 100px;
+}
+
+#leftRobot img {
+	height: 300px;
+}
+
+#rightRobot img {
+	height: 300px;
+	
+}
+
+#rightRobot {
+	right: -500px;
+	position: fixed;
+	z-index: 999;
+	size: 80%;
+	margin-top: 100px;
+}
+
+
+#numeEchipa1 {
+	font-family: Impact, Charcoal, sans-serif;
+	text-transform: uppercase;
+	float: left;
+	margin-top: -50px;
+	margin-left: 3%;
+	color: #990000;
+	font-size: 50px;
+}
+
+#numeEchipa2 {
+	font-family: Impact, Charcoal, sans-serif;
+	text-transform: uppercase;
+	float: right;
+	margin-top:-50px;
+	margin-right: 3%;
+	color: #990000;
+	font-size: 50px;
+}
+
+#outer {
+	position: absolute;
+	overflow: hidden;
+}
